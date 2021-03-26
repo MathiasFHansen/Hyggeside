@@ -1,0 +1,119 @@
+/* Mathias' demo stylesheet */
+
+body{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 18px;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+h1 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #57ee00;
+  fill: black;
+
+  font-size: 60px;
+  text-align: center;
+}
+
+h2{
+  color: #57ee00;
+  font-size: 32px;
+  text-align: center;
+}
+
+header {
+  max-width: 1024px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  border-top: 1px solid #00163b;
+  padding-top: 10px;
+}
+
+.greenlabel {
+  color: green;
+}
+
+.redlabel {
+  color: red;
+}
+
+.labelnavn {
+  float: left;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.formsection {
+  margin-bottom: 10px;
+}
+
+.formitem {
+  margin-bottom: 5px;
+}
+
+#demotable {
+  border: 1px solid silver;
+  padding: 5px;
+  border-collapse: collapse;
+
+}
+
+#demotable td {
+  border: 1px solid silver;
+  padding: 10px;
+}
+#demotable th {
+  border: 1px solid silver;
+  color: red;
+  padding: 10px;
+}
+
+
+#box1, #box2, #box3{
+  border-radius: 10px;
+  max-width:1024px;
+  height:200px;
+  margin:10px;
+  padding:10px;
+}
+
+#box1 {
+  background:#E0DCE2;
+  margin-bottom: 10px;
+}
+
+#box2 {
+  background:#E0DCE2;
+  margin-bottom: 10px;
+}
+
+#box3 {
+  background:#E0DCE2;
+  margin-bottom: 10px;
+}
+
+h2, p  {
+  padding:5px;
+}
+
+#box1 p, #box2 p, #box3 p {
+  white-space:pre;
+  font-size:smaller;
+  font-family:monospace;
+}
+
+#trykHerKnap{
+  background: #57ee00;
+  border-color: black;
+}
+
